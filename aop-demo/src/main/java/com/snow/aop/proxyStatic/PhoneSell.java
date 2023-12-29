@@ -1,4 +1,4 @@
-package com.snow.aop.proxy;
+package com.snow.aop.proxyStatic;
 
 /**
  * 静态代理 手机购买接口

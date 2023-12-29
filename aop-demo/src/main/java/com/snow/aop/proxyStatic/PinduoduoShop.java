@@ -1,4 +1,4 @@
-package com.snow.aop.proxy;
+package com.snow.aop.proxyStatic;
 
 /**
  * 拼多多商家 代理手机厂商购买手机

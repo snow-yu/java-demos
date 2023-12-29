@@ -1,4 +1,4 @@
-package com.snow.aop.proxy;
+package com.snow.aop.proxyStatic;
 
 /**
  * 目标类：手机厂家， 不接受用户直接购买
