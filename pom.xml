@@ -11,12 +11,14 @@
 
     <modules>
         <module>lombok-demo</module>
-        <module>aop-demo</module>
         <module>idea-demo</module>
         <module>validation-demo</module>
         <module>stream-demo</module>
+        <!-- AOP编程demo -->
+        <module>aop-demo</module>
     </modules>
 
+    <!-- 依赖版本管理 -->
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -30,13 +32,14 @@
             <version>1.18.30</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <version>3.2.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
+    <!-- 插件管理 -->
     <build>
         <plugins>
             <plugin>
