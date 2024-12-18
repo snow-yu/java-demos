@@ -1,5 +1,6 @@
 package com.mybatis.flex.demo.bean;
 
+import com.mybatisflex.annotation.Column;
 import com.mybatisflex.annotation.Id;
 import com.mybatisflex.annotation.KeyType;
 import com.mybatisflex.annotation.Table;
@@ -15,9 +16,11 @@ import java.util.Date;
 @Table("tb_account")
 public class Account {
 
-    @Id(keyType = KeyType.Auto)
+    @Id(keyType = KeyType.None)
     private Long id;
     private String userName;
+
+    @Column(onInsertValue = "asd")
     private Integer age;
     private Date birthday;
 

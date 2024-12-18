@@ -4,3 +4,13 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/dbtest
     username: root
     password: 553551
+
+
+mybatis-flex:
+  global-config:
+    print-banner: false
+    key-config:
+      key-type: generator
+      value: snowFlakeId
+    deleted-value-of-logic-delete: now()
+
